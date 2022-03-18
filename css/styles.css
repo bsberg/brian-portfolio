@@ -72,7 +72,6 @@ h5 span {
   font-weight: 700;
 }
 
-
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -139,7 +138,6 @@ h5 span {
 
 .work-card {
   background-color: #1A2C55;
-  width: 100%;
   border-radius: 8px;
   display: flex;
   margin-bottom: 40px;
@@ -155,10 +153,21 @@ h5 span {
 }
 
 .work-card-content {
-  width: 45%;
+  width: 40%;
   padding: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.work-card:hover {
+  box-shadow: 0 0 0 3px #00FF87;
+}
+
+.work-card:hover .view-link {
+  text-decoration: underline;
+  text-decoration-color: #00FF87;
+  text-decoration-thickness: 3px;
+
 }
 
 .work-card-content h5 {
@@ -171,7 +180,7 @@ h5 span {
 }
 
 .work-card-image {
-  width: 55%;
+  width: 60%;
   display: flex;
 }
 
@@ -181,6 +190,12 @@ h5 span {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+}
+
+.all-other-case-studies {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
