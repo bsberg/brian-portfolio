@@ -347,6 +347,8 @@ h5 span {
 @media (max-width: 769px) {
   h1 {
     font-size: 48px;
+    text-decoration-thickness: 10px;
+
   }
 
   h2 {
