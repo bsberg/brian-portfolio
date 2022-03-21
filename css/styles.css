@@ -74,21 +74,24 @@ h5 span {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 24px;
+  padding-left: 24px;
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 670px;
   }
 }
+
 @media (min-width: 992px) {
   .container {
     width: 776px;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 936px;
@@ -117,6 +120,7 @@ h5 span {
 
 .home-btn-wrapper {
   text-align: right;
+  margin-top: 20px;
 }
 
 .home-btn {
@@ -196,6 +200,7 @@ h5 span {
   padding: 32px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .about-content {
@@ -266,5 +271,137 @@ h5 span {
   text-decoration-thickness: 3px;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: inherit;
+}
+
+@media (max-width: 991px) {
+  .mobile-only {
+    display: inherit;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .home-image {
+    width: 80%;
+  }
+
+  .work-card {
+    flex-direction: column-reverse !important;
+  }
+
+  .work-card.all-other-case-studies {
+    flex-direction: row !important;
+  }
+
+  .work-card-content {
+    width: 100%;
+    /*flex-direction: row;*/
+  }
+
+  .work-card-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .about-content {
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-image {
+    width: 60%;
+  }
+
+  .about-image div {
+    display: none;
+  }
+
+  .about-image img {
+    margin-bottom: 20px;
+  }
+
+  .about-values {
+    flex-direction: column;
+  }
+
+  .value {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+
+
+}
+
+@media (max-width: 769px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h5 span {
+    font-size: 20px;
+  }
+
+  .home-btn {
+    padding: 16px 56px;
+    font-size: 18px;
+  }
+
+  .home-btn-wrapper {
+    text-align: left;
+  }
+
+  .work-card-content {
+    padding: 20px;
+  }
+
+  .work-card h5 {
+    margin: 0;
+  }
+
+  .work-card p {
+    margin-bottom: 24px;
+  }
+
+  .work-card-image {
+    height: 200px;
+  }
+
+  .all-other-case-studies {
+    padding: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .contact-content h3 {
+    font-size: 24px;
+  }
+
+  .contact-content {
+    width: 100%;
+  }
+
+}
 
 
