@@ -15,59 +15,59 @@ h1, h2, h3, h4, h5, p {
 h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 800;
-  font-size: 100px;
+  font-size: 80px;
   text-decoration:line-through;
   text-decoration-color: #00FF87;
-  text-decoration-thickness: 20px;
-  margin-top: 70px;
+  text-decoration-thickness: 16px;
+  margin-top: 56px;
   line-height: 1.2;
 }
 
 h2 {
   font-family: 'Rubik', sans-serif;
   font-weight: 800;
-  font-size: 80px;
-  margin-bottom: 40px;
+  font-size: 64px;
+  margin-bottom: 32px;
 }
 
 h3 {
   font-family: 'Rubik', sans-serif;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 h4 {
   font-family: 'Rock Salt', cursive;
-  font-size: 16px;
+  font-size: 13px;
   color: #00FF87;
 }
 
 h5 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 p {
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 p.light {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 p span {
-  font-size: 24px;
+  font-size: 20px;
   color: #00FF87;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
 }
 
 h5 span {
-  font-size: 30px;
+  font-size: 24px;
   color: #00FF87;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
@@ -86,33 +86,33 @@ h5 span {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 776px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 936px;
   }
 }
 
 .home-section {
   background-color: #1A2C55;
-  padding: 80px 0 60px 0;
+  padding: 64px 0 48px 0;
 }
 
 .work-section {
   background-color: #101C37;
-  padding: 100px 0 80px 0;
+  padding: 80px 0 64px 0;
 }
 
 .about-section {
   background-color: #1A2C55;
-  padding: 100px 0 80px 0;
+  padding: 80px 0 64px 0;
 }
 
 .contact-section {
   background-color: #101C37;
-  padding: 100px 0 80px 0;
+  padding: 80px 0 64px 0;
 }
 
 .home-btn-wrapper {
@@ -120,13 +120,13 @@ h5 span {
 }
 
 .home-btn {
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   color: #212121;
   background-color: #00FF87;
   border-radius: 8px;
-  padding: 24px 90px;
+  padding: 20px 72px;
 }
 
 .home-image {
@@ -134,14 +134,14 @@ h5 span {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
 .work-card {
   background-color: #1A2C55;
   border-radius: 8px;
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   overflow: hidden;
 }
 
@@ -155,7 +155,7 @@ h5 span {
 
 .work-card-content {
   width: 40%;
-  padding: 40px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
 }
@@ -171,11 +171,11 @@ h5 span {
 }
 
 .work-card-content h5 {
-  margin: 24px 0 8px 0;
+  margin: 20px 0 6px 0;
 }
 
 .work-card-content p {
-  margin-bottom: 70px;
+  margin-bottom: 56px;
   width: 80%;
 }
 
@@ -193,7 +193,7 @@ h5 span {
 }
 
 .all-other-case-studies {
-  padding: 40px;
+  padding: 32px;
   display: flex;
   justify-content: space-between;
 }
@@ -202,7 +202,7 @@ h5 span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .about-text {
@@ -212,7 +212,7 @@ h5 span {
 }
 
 .about-text p {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .about-text h3 {
@@ -235,7 +235,7 @@ h5 span {
 }
 
 .about-values {
-  margin-top: 32px;
+  margin-top: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -256,7 +256,7 @@ h5 span {
 }
 
 .contact-content h3 {
-  font-size: 40px;
+  font-size: 32px;
   margin-bottom: 8px;
 }
 
