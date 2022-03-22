@@ -301,8 +301,21 @@ h5 span {
   }
 
   .work-card-content {
-    width: 100%;
-    /*flex-direction: row;*/
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .work-card-content div {
+    width: 70%;
+  }
+
+  .work-card-content p.light {
+    margin-bottom: 0;
+  }
+
+  .work-card-content h5 {
+    margin-top: 0;
   }
 
   .work-card-image {
@@ -344,7 +357,7 @@ h5 span {
 
 }
 
-@media (max-width: 769px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 48px;
     text-decoration-thickness: 10px;
@@ -401,6 +414,19 @@ h5 span {
   }
 
   .contact-content {
+    width: 100%;
+  }
+
+  .work-card-content {
+    flex-direction: column;
+  }
+
+  .work-card-content div {
+    width: inherit;
+  }
+
+  .work-card-content p.light {
+    margin-bottom: 20px;
     width: 100%;
   }
 
