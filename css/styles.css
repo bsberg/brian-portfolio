@@ -147,6 +147,8 @@ h5 span {
   display: flex;
   margin-bottom: 32px;
   overflow: hidden;
+  position: relative;
+  z-index: 10;
 }
 
 .work-card.content-left {
@@ -203,6 +205,19 @@ h5 span {
   align-items: center;
 }
 
+.thought-bubble-img {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 99%;
+  left: 10%;
+}
+
+.thought-bubble-img img {
+  position: relative;
+  width: 1100px;
+}
+
 .about-content {
   display: flex;
   flex-direction: row;
@@ -256,6 +271,19 @@ h5 span {
   margin-bottom: 8px;
 }
 
+.values-header {
+  position: relative;
+}
+
+.values-header h3 {
+  position: absolute;
+}
+
+.values-header img {
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
 .contact-content {
   width: 60%
 }
@@ -269,6 +297,12 @@ h5 span {
   text-decoration: underline;
   text-decoration-color: #00FF87;
   text-decoration-thickness: 3px;
+}
+
+.social-icons img {
+  width: 44px;
+  margin-top: 16px;
+  margin-right: 8px;
 }
 
 .mobile-only {
@@ -352,8 +386,6 @@ h5 span {
     width: 100%;
     margin-bottom: 24px;
   }
-
-
 
 }
 
