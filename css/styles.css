@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +90,7 @@ h5 span {
 }
 
 .thought-bubble-img {
-  transform: translate(-800px, -918px);
+  transform: translate(-10%, -1100px);
 }
 
 @media (min-width: 768px) {
@@ -95,7 +99,8 @@ h5 span {
   }
 
   .thought-bubble-img {
-    transform: translate(-840px, -878px);
+    /*transform: translate(-840px, -878px);*/
+    transform: translate(-976px, -1050px);
   }
 }
 
@@ -105,7 +110,8 @@ h5 span {
   }
 
   .thought-bubble-img {
-    transform: translate(-400px, -1000px);
+    /*transform: translate(-400px, -1000px);*/
+    transform: translate(-540px, -1170px);
   }
 
 }
@@ -247,7 +253,7 @@ h5 span {
   position: relative;
 }
 
-.about-section .mobile-only {
+.about-section  h2 {
   z-index: 10;
   position: relative;
 }
@@ -498,6 +504,10 @@ h5 span {
   .work-card-content p.light {
     margin-bottom: 20px;
     width: 100%;
+  }
+
+  .thought-bubble-img {
+    left: 0;
   }
 
 }
