@@ -8,6 +8,11 @@
   background: transparent;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1, h2, h3, h4, h5, p {
   color: #ffffff;
 }
@@ -154,6 +159,11 @@ h5 span {
   padding: 20px 72px;
 }
 
+.home-btn:hover {
+  background-color: #1dff96;
+  cursor: pointer;
+}
+
 .home-image {
   width: 60%;
   display: block;
@@ -189,6 +199,7 @@ h5 span {
 
 .work-card:hover {
   box-shadow: 0 0 0 3px #00FF87;
+  cursor: pointer;
 }
 
 .work-card:hover .view-link {
@@ -326,6 +337,10 @@ h5 span {
   width: 44px;
   margin-top: 16px;
   margin-right: 8px;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
 }
 
 .mobile-only {
