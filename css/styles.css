@@ -295,6 +295,10 @@ h5 span {
   margin-bottom: 8px;
 }
 
+.about-image img {
+  align-items: start;
+}
+
 .about-values {
   margin-top: 24px;
   display: flex;
