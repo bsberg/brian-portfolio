@@ -1,5 +1,6 @@
-body {
+.site-wrapper {
   overflow-x: hidden;
+  position: relative;
 }
 
 * {
@@ -27,7 +28,7 @@ h1 {
   font-size: 80px;
   text-decoration:line-through;
   text-decoration-color: #00FF87;
-  text-decoration-thickness: 16px;
+  text-decoration-thickness: 18px;
   margin-top: 56px;
   line-height: 1.2;
 }
@@ -162,7 +163,7 @@ h5 span {
   color: #212121;
   background-color: #00FF87;
   border-radius: 8px;
-  padding: 20px 72px;
+  padding: 18px 62px;
 }
 
 .home-btn:hover {
