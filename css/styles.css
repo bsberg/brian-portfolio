@@ -88,6 +88,7 @@ h5 span {
   padding-left: 24px;
   margin-right: auto;
   margin-left: auto;
+  /*transform: scale(.8);*/
 }
 
 .thought-bubble-img {
@@ -284,6 +285,7 @@ h5 span {
   width: 35%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .about-image div {
@@ -296,7 +298,7 @@ h5 span {
 }
 
 .about-image img {
-  align-items: start;
+  width: 100%;
 }
 
 .about-values {
