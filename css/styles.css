@@ -134,7 +134,7 @@ h5 span {
 
 .home-section {
   background-color: #1A2C55;
-  padding: 64px 0 48px 0;
+  padding: 80px 0 80px 0;
 }
 
 .work-section {
@@ -152,9 +152,32 @@ h5 span {
   padding: 80px 0 64px 0;
 }
 
+.home-top-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .home-btn-wrapper {
   text-align: right;
   margin-top: 20px;
+}
+
+.resume-btn {
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border: 3px solid #00FF87;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+.resume-btn:hover {
+  background-color: #1dff96;
+  color: #212121;
+  cursor: pointer;
 }
 
 .home-btn {
@@ -462,6 +485,10 @@ h5 span {
   .home-btn {
     padding: 16px 56px;
     font-size: 18px;
+  }
+
+  .resume-btn {
+    font-size: 16px;
   }
 
   .home-btn-wrapper {
